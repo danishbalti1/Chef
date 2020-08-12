@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+          ),
+          url("./imgs/home_bg.jpg");
+        background-size: cover;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+      }
+      .container .about-info,
+      p,
+      h1 {
+        letter-spacing: 2px;
+        font-size: 16px;
+        color: white;
+      }
+      .about-info {
+        line-height: 2rem;
+      }
+      .about-info h1 {
+        font-size: 1.8rem;
+        color: darkorange;
+      }
+      .about-info p {
+        font-size: 19px;
+      }
+      .about-info ul li {
+        font-size: 19px;
+        letter-spacing: 2px;
+      }
+      .container img {
+        height: 100%;
+        width: 90%;
+      }
+      .skill-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background: #11130f;
+        padding: 10px;
+      }
+      .skill-info h1 {
+        color: darkorange;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-left: 14rem;
+      }
+      .exper {
+        line-height: 2.3rem;
+      }
+      ul li {
+        color: white;
+        font-size: 18px;
+        letter-spacing: 2px;
+      }
+
+      .skill-info h1 {
+        color: white;
+        padding-left: 1rem;
+        font-size: 23px;
+        letter-spacing: 2.4px;
+      }
+
+      .place {
+        line-height: 2.3rem;
+      }
+      hr {
+        width: 70%;
+        border-top: 1px solid white;
+        grid-column: 1/3;
+      }
+      .footer {
+        background: rgb(46, 41, 41);
+        width: 100%;
+        height: 60vh;
+      }
+      .footer-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 2rem;
+        padding-left: 5rem;
+      }
+      .footer-container ul li {
+        font-size: 1.4rem;
+        line-height: 3rem;
+        letter-spacing: 2px;
+      }
+      .footer-container h2 {
+        color: darkorange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="imgs/IMG-20200117-WA0004.jpg" />
+      </div>
+      <div class="about-info">
+        <h1>About Me</h1>
+        <p>
+          Hi! This is Muhammad Danial. I'm an Executive Chef from Skardu. I m
+          expert in traditional Chinese and Thai foods and creative takes on
+          these food. I also have good knowledge about continental and fast
+          food. Currently, I am serving as a Cooperative Chef at China Town
+        </p>
+        <p>
+          I've 5 years of cooking experience in different restaurants all over
+          Pakistan. My work has been admired throughout my carrer. I worked in
+          Yum, Tandoori and P.F Changs as a Chef. I opened many restaurants. I
+          also have experience to foreigner during my work at P.F Changs. I am
+          among those who introduce the recipe to Yum.
+        </p>
+        <p>I am happy to provide the following services:</p>
+        <ul>
+          <li>
+            I open new Restaurents
+          </li>
+          <li>
+            I provide highly qualified and civilized staffs for new as well as
+            for xisting restaurants.
+          </li>
+          <li>
+            If you have any questions regarding recipes, then feel freel to mail
+            me
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="skill-info">
+      <div class="exper">
+        <h1>Cooperative Chef</h1>
+        <ul>
+          <li>Managed daily kitchen operations with 8 staff members.</li>
+          <li>
+            Re-developed entire menu in 2019, increasing sales revenue by 150%
+          </li>
+          <li>
+            Oversaw food preparation and production, ensuring 100% food safety
+            procedures were followed.
+          </li>
+        </ul>
+      </div>
+
+      <div class="place">
+        <h1>Yum Islamabad Phase 7 / 2020 – Present</h1>
+        <ul>
+          <li>
+            Interviewed, hired, trained, and directed all staff members since
+            2016, improving kitchen operational flow by 50%, while maintaining
+            100% employee retention since
+          </li>
+          <li>
+            Developed process that reduced waste by 40% and improved supply
+            turnover by 70%
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <div class="executive">
+        <h1>Executive Chef</h1>
+        <ul>
+          <li>
+            Carry out costing and create standard operating procedures for
+            dishes.
+          </li>
+          <li>
+            Conduct appraisals and work on development plans for staff including
+            direct reports.
+          </li>
+          <li>
+            Actively involved in devising training and development programmes.
+          </li>
+        </ul>
+      </div>
+      <div class="gulberg">
+        <h1>Gulberg / 2017 – 2019</h1>
+        <ul>
+          <li>
+            Ensure compliance with health and safety policies, as well as
+            completion of all documentation.
+          </li>
+          <li>
+            Achieved and improved upon guest satisfaction scores for 2017 and
+            2018.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--Footer-->
+
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-skills">
+          <h2>Core Skills</h2>
+          <ul>
+            <li>Batch Cooking</li>
+            <li>Time Management</li>
+            <li>Material cost estimation</li>
+            <li>Communication</li>
+            <li>Quality Control</li>
+            <li>Food safety & sanitation</li>
+          </ul>
+        </div>
+        <div class="footer-cusines">
+          <h2>Cuisines</h2>
+          <ul>
+            <li>Chineese</li>
+            <li>Fast Food</li>
+            <li>Thai</li>
+            <li>Continental</li>
+            <li>Japanesse</li>
+          </ul>
+        </div>
+        <div class="footer-achievements">
+          <h2>Key Acheivements</h2>
+          <ul>
+            <li>Awarded Best Emoloy of the Year</li>
+            <li>Awarded Best Executive Brand Training in YUM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
