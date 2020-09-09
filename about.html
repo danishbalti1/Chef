@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>About Danial Chef</title>
+  <head>
+    <title>Dani Chef</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta property="og:url" content="https://seinfeld70.github.io/arif/index.html" />
-    <script src="https://kit.fontawesome.com/ba089da81a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="CSS/style.css">
+    <meta
+      property="og:url"
+      content="https://seinfeld70.github.io/arif/index.html"
+    />
+    <script
+      src="https://kit.fontawesome.com/ba089da81a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/about.css">
+  </head>
 
+  <body>
+    <div class="menu-btn">
+      <i class="fas fa-bars fa-2x"></i>
+    </div>
+    <div class="container">
+      <nav class="main-nav">
+        <img src="imgs/logo.png" class="logo" />
 
-</head>
-
-<body>
-    <div class="model">
-        <nav>
-            <div class="logo">
-                <img src="imgs/logo.png">
-            </div>
-            <div class="menu">
-                <a href="./index.html">Home</a>
-                <a href="./about.html" class="active">About</a>
-                <a href="./work.html">Work</a>
-                <a href="./contact.html">Contact</a>
-            </div>
-        </nav>
+        <ul class="main-menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./work.html">Work</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Cotact</a></li>
+        </ul>
+      </nav>
     </div>
     <!--About SEction-->
     <main>
@@ -181,6 +186,13 @@
             <a href="facebook.com"><i class="fab fa-youtube"></i></a>
         </div>
     </footer>
+    <script>
+        document
+          .querySelector(".menu-btn")
+          .addEventListener("click", () =>
+            document.querySelector(".main-menu").classList.toggle("show")
+          );
+      </script>
 
 </body>
 
