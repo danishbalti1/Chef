@@ -29,6 +29,11 @@ ul {
   width: 150px;
   margin-right: 7rem;
 }
+
+ul li.active > a {
+  background: white !important;
+  color: black !important;
+}
 .main-nav ul {
   display: flex;
 }
@@ -49,11 +54,15 @@ ul li a:hover {
 .menu-btn {
   cursor: pointer;
   position: absolute;
-  top: 20px;
+  top: 10px;
   color: white;
   right: 30px;
   z-index: 2;
   display: none;
+}
+.menu-btn img {
+  width: 40px;
+  height: 40px;
 }
 
 /*AB Start hoi ha image aur home page ki styling*/
@@ -63,7 +72,7 @@ ul li a:hover {
 }
 .profile-pic img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .basic_info {
   padding: 6rem 2rem 2.5rem 2rem;
@@ -139,15 +148,13 @@ footer ul li {
   margin-bottom: 0.9rem;
   font-size: 1.2rem;
 }
-.socials a {
-  color: white;
-  margin-bottom: 10px;
-  margin-right: 5px;
-  text-align: center;
-  display: inline-block;
-  font-size: 1.7em;
-  transition: all 0.6s ease;
-  border-radius: 1rem;
+.socials {
+  width: 100%;
+}
+.socials a img {
+  width: 40px;
+  height: 40px;
+  margin: 6px;
 }
 
 .socials a:hover {
@@ -217,6 +224,9 @@ footer ul li {
   .container {
     width: 100%;
     background: #333;
+  }
+  .socials img {
+    display: none;
   }
 }
 @media (max-width: 500px) {

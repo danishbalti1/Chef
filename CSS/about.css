@@ -4,7 +4,6 @@ body {
   font-family: "Montserrat";
 }
 main {
-  line-height: 2rem;
   word-spacing: 2px;
   letter-spacing: 0.3px;
 }
@@ -22,6 +21,7 @@ nav a:hover {
 .about-info {
   background: #333 url("../imgs/home_bg.jpg");
   flex-basis: 70%;
+  line-height: 1.9;
   background-size: cover;
   background-position: center;
   padding: 3rem 1rem 4.5rem 2.3rem;
@@ -75,6 +75,9 @@ hr {
 @media (max-width: 530px) {
   .job_details {
     flex-flow: column;
+  }
+  .about-pic img {
+    height: 190%;
   }
 }
 .job_details ul {

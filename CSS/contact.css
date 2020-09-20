@@ -29,16 +29,6 @@ main > p {
   align-items: center;
   text-align: center;
 }
-.contact-about p > i {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 1.4rem;
-  color: #555;
-  border-radius: 50%;
-  border: 3px solid skyblue;
-  text-align: center;
-}
 .contact-about h1 {
   color: #555;
   font-size: 1.9rem;
@@ -47,19 +37,28 @@ main > p {
 .contact-about p {
   font-size: 1.2rem;
   color: white;
+  text-align: start;
+  margin-top: 1rem;
+  margin-left: 5rem;
   letter-spacing: 1.5px;
 }
 input {
-  padding: 10px;
+  padding: 14px;
   margin: 5px;
-  outline: None;
+  color: white;
+  font-weight: lighter;
+  font-size: 1rem;
+  width: 80%;
   border: 1px solid #555;
   background: black;
-  width: 80%;
+  outline: None;
 }
 textarea {
-  padding: 10px;
+  padding: 14px;
   margin: 5px;
+  color: white;
+  font-weight: lighter;
+  font-size: 1rem;
   width: 80%;
   border: 1px solid #555;
   background: black;
@@ -79,8 +78,10 @@ textarea {
   transition: 0.4s ease;
 }
 .btn3:hover {
-  background: white;
-  color: black;
+  color: white;
+  font-weight: lighter;
+  border: none;
+  outline: None;
 }
 main > h1 {
   color: skyblue;
@@ -109,11 +110,15 @@ main > h1 {
   .contact-container h1 {
     font-size: 1.4rem;
   }
-  .contact-about p > i {
-    font-size: 0.9rem;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
+  .contact-about p {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    width: 100%;
+    margin-right: 0;
   }
+}
+.contact-about img {
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
 }
